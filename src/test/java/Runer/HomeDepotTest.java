@@ -26,6 +26,7 @@ public class HomeDepotTest extends Base {
   public void CreateTheAccount() {
 	  Home home=new Home(driver);
 	  home.MyAccountClick();
+	  //github testing changes
 	  home.Registerbutton();
 CreateDepotAccount dt = new CreateDepotAccount(driver);
 	    String createAccountText = dt.createAnAccountVerification();
