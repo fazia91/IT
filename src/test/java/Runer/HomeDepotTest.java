@@ -16,6 +16,7 @@ public class HomeDepotTest extends Base {
 	  softAsser.assertEquals(MyAccountText, "My Account");
 	  String YOurSHoppingText=home.YourShoppingTextVerification();
 	  YOurSHoppingText=YOurSHoppingText.trim();
+	  // testing homedepot page 
 	  System.out.println(YOurSHoppingText);
 	  softAsser.assertEquals(YOurSHoppingText, "You're shopping Leesburg OPEN until 8 pm");
 	  String FindStoreText=home.StoreFinderTextVerification();
